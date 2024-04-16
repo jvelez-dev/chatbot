@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>¡Hola!, soy DataGovernor</h1>
+    <p>Estoy aquí para informarte sobre la implementación de un modelo de gobernanza de datos para el Sistema de CTeI del departamento de Caldas, que garantice su calidad, interoperabilidad, transaccionalidad frente a las necesidades de las subregiones en Caldas.</p>
+    <p>Por favor, selecciona el tema que te gustaría explorar:</p>
+    <ul>
+        {% for op in menu_ppal%}
+        <li>{{ op }}</li>
+        {% endfor %}
+    </ul>
+    <form id="menu-form" action="/respuesta" method="post">
+        <input type="number" name="opcion" placeholder="Selecciona una opción" min="0" max="{{ menu_ppal_len - 1 }}" required>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <div id="respuesta-container"></div>
+    
+    <script>
+        document.getElementById('menu-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var opcionSeleccionada = document.querySelector('input[name="opcion"]').value;
+    
+            fetch('/respuesta', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'opcion=' + opcionSeleccionada,
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('respuesta-container').innerHTML = data;
+            });
+        });
+    </script>
+</body>
+</html>
