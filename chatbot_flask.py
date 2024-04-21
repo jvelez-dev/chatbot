@@ -12,7 +12,7 @@ bot = get_bot()
 obj1_menu, obj2_menu, obj3_menu, obj4_menu = generate_all_menus()
 @app.route('/', methods=['GET'])
 def index():
-    main_options = ['Objetivo 1.blah','Objetivo 2.bleh','Objetivo 3. bleh','Objetivo 4. blah']
+    main_options = ['Objetivo 1. Ciencia, innovación y desafíos locales: Un análisis integral de Caldas','Objetivo 2. Ampliando capacidades colectivas en los territorios para participar en CTeI a partir de procesos formativos','Objetivo 3. Indicadores para el sistema CTeI de las subregiones de Caldas','Objetivo 4. Ciencia, innovación y desafíos locales: Un análisis integral de Caldas']
     source='home'
     return render_template('index.html', main_menu=main_options,source=source)
 
