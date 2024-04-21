@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .btn-outline-custom {
-            color: black; /* Cambia el color del texto a negro */
-            border-color: green; /* Mantiene el borde verde */
+            color: black; 
+            border-color: green; 
         }
 
         .btn-outline-custom:hover {
-            background-color: green; /* Cambia el color de fondo al pasar el mouse */
-            color: white; /* Cambia el color del texto a blanco al pasar el mouse */
+            background-color: green; 
+            color: white; 
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="content text-center"> 
-            <img src="../static/bot.jpg" alt="DataGovernor" class="img-fluid">
+            <img src="/static/bot.jpg" alt="DataGovernor" class="img-fluid">
             <h3>DataGovernor</h3>
-            <p>Nuestro asistente virtual está aquí para informarte sobre el desarrollo del proyecto Juntos por la ciencia, la tecnología y la innovación.</p>
+            <p>El objetivo 2 es .... </p>
         </div>        
         <p><h5>¿Qué te gustaría explorar?'</h5></p>
         <ul class="list-group">
-            {% for op in main_menu %}
-            <a href="/response/{{ loop.index }}/{{ source }}" class="btn btn-outline-custom">{{ op }}</a>
+            {% for item in menu %}
+            <a href="/response_two/{{loop.index}}/{{ source }}/{{ item }}" class="btn btn-outline-custom">{{ item }}</a>
             {% endfor %}
+            <a href="/back" class="btn btn-outline-danger">Regresar</a><br>
         </ul>
     </div>
 </body>

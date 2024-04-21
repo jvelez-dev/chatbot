@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ChatBOT</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .btn-outline-custom {
+            color: black; 
+            border-color: green; 
+        }
+
+        .btn-outline-custom:hover {
+            background-color: green; 
+            color: white; 
+        }
+    </style>
+    </head>
+    <body>        
+        <div class="container">
+            <div class="content text-center"> 
+                <img src="/static/bot.jpg" alt="DataGovernor" class="img-fluid">
+                <h3>DataGovernor</h3>
+                <p>{{ answer }} </p>
+            </div>        
+            {% if source=='obj1' %}
+            <a href="/response/1/home" class="btn btn-outline-danger">Regresar</a>
+            {% elif source=='obj2' %}
+                <a href="/response/2/home" class="btn btn-outline-danger">Regresar</a>
+                {% elif source=='obj3' %}
+                    <a href="/response/3/home" class="btn btn-outline-danger">Regresar</a>
+                    {% else %}
+                        <a href="/response/4/home" class="btn btn-outline-danger">Regresar</a>
+        {% endif %}
+        </div>
+    </body>
+</html>

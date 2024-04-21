@@ -1,0 +1,14 @@
+Pregunta: ¿Qué indicadores se pueden encontrar? 
+Respuesta: Se pueden encontrar indicadores relacionados con la producción científica, la producción intelectual, el capital humano, los recursos financieros, la infraestructura, la articulación y la cultura CTeI
+Pregunta: ¿Por qué establecer indicadores CTeI para el territorio? 
+Respuesta: Los indicadores CTeI permiten que los tomadores de decisiones, analistas o interesados en general puedan realizar un monitoreo y seguimiento del sistema CTeI a través de las diversas dimensiones que los conforman 
+Pregunta: ¿Qué tipos de desagregaciones se pueden encontrar en el conjunto de indicadores? 
+Respuesta: Se pueden encontrar desagregaciones en términos de territorio/subregiones, de área de conocimiento, de género, de tipo de institución, entre otros
+Pregunta: ¿Qué agregaciones de tipo territorial tienen los indicadores CTeI? 
+Respuesta: Las agregaciones de tipo territorial son definidas por lo que se consideran las subregiones de Caldas las cuales son Alto Occidente, Bajo Occidente, Occidente próspero, Norte, Alto Oriente y Magdalena Caldense
+Pregunta: ¿Quiénes participaron en los talleres de consulta para la identificación de necesidades de información estadística o indicadores? 
+Respuesta: En estos talleres participaron actores del sistema CTeI pertenecientes a la sociedad civil, el estado, la empresa privada, el sector educativo, el sector salud y la academia de las subregiones de Caldas  
+Pregunta: ¿Cuáles expertos participaron en la consulta para la definición de los indicadores CTeI? 
+Respuesta: En este taller de consulta participaron los líderes temáticos de indicadores del Observatorio Colombiano de Ciencia y Tecnología – OCyT
+Pregunta: ¿Cómo se reflejan las necesidades de información estadística de los actores del territorio en los indicadores CTeI? 
+Respuesta: Las necesidades de información estadística identificadas en los talleres fueron contrastadas con los procesos de consulta a los expertos y con los estándares nacionales e internacionales de indicadores CTeI. Así, cada indicador planteado se relaciona con alguna necesidad de información estadística identificada en el territorio.
