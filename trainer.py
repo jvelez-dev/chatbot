@@ -48,3 +48,4 @@ def get_bot():
 
 def get_objectives_QA():
     return objective_one_QA,objective_two_QA,objective_three_QA,objective_four_QA
+

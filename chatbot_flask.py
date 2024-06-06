@@ -37,6 +37,12 @@ def convert_newlines_to_br(text):
     """
     return text.replace('\n', '<br>').replace('\\n', '<br>')
 
+def reset_database():
+    """
+    Reset chatbot´s database and retrain it.
+    """
+    bot.storage.drop()
+    train_bot()
 
 @app.route('/', methods=['GET'])
 def index():
@@ -52,6 +58,7 @@ def response(option,source):
     """
     Renders pages with questions based on selected option.
     """
+    reset_database()
     if option == 1:
         return render_template('questions_obj1.html', menu=obj1_menu, source='obj1', newline_to_html=True)
     elif option == 2:
@@ -66,7 +73,7 @@ def response_one(option,source,item):
     """
     Renders chatbot responses for objective 1.
     """
-    answer = convert_newlines_to_br(bot.get_response(item).text)
+    answer = convert_newlines_to_br(bot.get_response(item).text)    
     return render_template('chat_response.html',source='obj1',answer=answer, newline_to_html=True)
 
 @app.route('/response_two/<int:option>/<string:source>/<string:item>')
