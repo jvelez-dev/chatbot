@@ -1,12 +1,12 @@
-Pregunta: ¿Cuántos participantes por edades se formaron en CTeI+C a través de la cátedra de Gobernanza: 
-Respuesta: 126 niños o niñas menores de 14 años de edad.\n 211 jóvenes entre los 15 y 17 años de edad.\n 693 adultos entre los 18 y 60 años de edad. \n 21 adultos mayores de 61 años.
-Pregunta: ¿Cuántos participantes por sexo se formaron en CTeI+C a través de la cátedra de Gobernanza:
-Respuesta: FEMENINO	= 607 \n MASCULINO = 444
+Pregunta: ¿Cuántos participantes por edades se formaron en CTeI+C a través de la cátedra de Gobernanza?
+Respuesta: 126 niños o niñas menores de 14 años de edad. \n 211 jóvenes entre los 15 y 17 años de edad. \n 693 adultos entre los 18 y 60 años de edad. \n 21 adultos mayores de 61 años.
+Pregunta: ¿Cuántas mujeres y hombres se formaron en CTeI+C a través de la cátedra de Gobernanza?
+Respuesta: Mujeres	= 607 \n Hombres = 444
 Pregunta: ¿Cuántos fueron capacitados por subregiones?
-Respuesta: ALTO OCCIDENTE = 49 \n NORTE = 86 \n ALTO ORIENTE = 94 \n OCCIDENTE PROSPERO	= 160 \n MAGDALENA CALDENSE = 219 \n CENTRO SUR = 443 \n 
+Respuesta: Alto Occidente = 49 \n Norte = 86 \n Alto Oriente = 94 \n Occidente Próspero = 160 \n Magdalena Caldense = 219 \n Centro Sur = 443
 Pregunta: ¿Qué pretendía la Cátedra de Gobernanza CTeI+C?
 Respuesta: La cátedra generó una oportunidad para que los actores del SCTeI conocieran acerca de las políticas nacionales e internacionales en CTeI y adquirir habilidades en el uso de herramientas de las TIC a través del componente formativo en la plataforma de Moodle de la Universidad Autónoma de Manizales-UAM, además se tuvo la oportunidad de compartir de forma presencial con el equipo formador en los diferentes municipios.
 Pregunta: ¿Qué institución o instituciones direccionaron La Cátedra en CTeI quién la direccionó?
 Respuesta: Universidad Autónoma de Manizales UAM
 Pregunta: ¿Quiénes fueron el equipo de profesionales y cargos?
-Respuesta: Dra. María del Carmen Vergara Quintero \n Dra. Angélica María Rodríguez Ortíz \n Mg. Derlly Carolina Quintero - Asistente de investigación del objetivo 2 \n Prof. Blanca Iris Murillo Arenas - Asistente de Investigación en campo \n Prof. Diana Patricia Sánchez Carvajal - Asistente de investigación
+Respuesta: Dra. María del Carmen Vergara Quintero. \n Dra. Angélica María Rodríguez Ortíz. \n Mg. Derlly Carolina Quintero - Asistente de investigación del objetivo 2. \n Prof. Blanca Iris Murillo Arenas - Asistente de Investigación en campo. \n Prof. Diana Patricia Sánchez Carvajal - Asistente de investigación

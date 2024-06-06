@@ -22,7 +22,7 @@
             <div class="content text-center"> 
                 <img src="/static/bot.jpg" alt="DataGovernor" class="img-fluid">
                 <h3>DataGovernor</h3>
-                <p>{{ answer }} </p>
+                <p>{{ answer|safe }} </p>
             </div>        
             {% if source=='obj1' %}
             <a href="/response/1/home" class="btn btn-outline-danger">Regresar</a>
